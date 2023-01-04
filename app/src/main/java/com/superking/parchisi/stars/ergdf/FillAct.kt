@@ -66,11 +66,7 @@ class FillAct : AppCompatActivity() {
                 intentNorm.putExtra("WebInt", "deepLink")
                 startActivity(intentNorm)
                 finish()
-            } else if(code.contains(cou)) {
-                intentNorm.putExtra("WebInt", "MT")
-                startActivity(intentNorm)
-                finish()
-                } else {
+            } else {
                     startActivity(Intent(this, Juisouxhhucx::class.java))
                     finish()
                 }
