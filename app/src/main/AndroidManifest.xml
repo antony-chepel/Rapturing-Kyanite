@@ -10,7 +10,7 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
-        android:name=".hbvgf.Rioeisodisa"
+        android:name=".ergdf.MainClass"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:icon="@mipmap/ic_launcher"
@@ -20,6 +20,7 @@
         android:theme="@style/Theme.RapturingKyanite"
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
+        <activity android:name=".ergdf.FillAct"/>
         <activity
             android:name=".ergdf.Brsyxuixcs"
             android:noHistory="true"
@@ -37,7 +38,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".ergdf.Twsodsjixoijc"
+            android:name=".ergdf.PearlActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
